@@ -1,0 +1,12 @@
+# build
+.gradle/
+build/
+gradle/
+out/
+
+# IDE
+.idea/
+.vscode/
+
+# misc
+x.js
