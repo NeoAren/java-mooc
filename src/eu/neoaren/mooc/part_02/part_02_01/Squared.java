@@ -1,0 +1,16 @@
+package eu.neoaren.mooc.part_02.part_02_01;
+
+import java.util.Scanner;
+
+public class Squared {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        int number = Integer.parseInt(scanner.nextLine());
+        System.out.println(number * number);
+
+    }
+
+}
