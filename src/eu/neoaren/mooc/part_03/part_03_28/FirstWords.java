@@ -8,7 +8,14 @@ public class FirstWords {
 
         Scanner scanner = new Scanner(System.in);
 
-        //
+        while (true) {
+            String input = scanner.nextLine();
+            if (input.equals("")) {
+                break;
+            } else {
+                System.out.println(input.split(" ")[0]);
+            }
+        }
 
     }
 

@@ -8,7 +8,20 @@ public class AVClub {
 
         Scanner scanner = new Scanner(System.in);
 
-        //
+        while (true) {
+            String input = scanner.nextLine();
+            if (input.equals("")) {
+                break;
+            } else {
+                String[] items = input.split(" ");
+                for (String item : items) {
+                    if (item.contains("av")) {
+                        System.out.println(item);
+                    }
+                }
+
+            }
+        }
 
     }
 

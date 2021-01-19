@@ -8,7 +8,12 @@ public class IsItTrue {
 
         Scanner scanner = new Scanner(System.in);
 
-        //
+        String input = scanner.nextLine();
+        if (input.equalsIgnoreCase("true")) {
+            System.out.println("You got it right!");
+        } else {
+            System.out.println("Try again!");
+        }
 
     }
 

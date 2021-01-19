@@ -8,7 +8,17 @@ public class LineByLine {
 
         Scanner scanner = new Scanner(System.in);
 
-        //
+        while (true) {
+            String input = scanner.nextLine();
+            if (input.equals("")) {
+                break;
+            } else {
+                String[] array = input.split(" ");
+                for (String item : array) {
+                    System.out.println(item);
+                }
+            }
+        }
 
     }
 

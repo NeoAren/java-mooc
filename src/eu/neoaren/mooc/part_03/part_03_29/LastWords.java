@@ -8,7 +8,15 @@ public class LastWords {
 
         Scanner scanner = new Scanner(System.in);
 
-        //
+        while (true) {
+            String input = scanner.nextLine();
+            if (input.equals("")) {
+                break;
+            } else {
+                String[] array = input.split(" ");
+                System.out.println(array[array.length - 1]);
+            }
+        }
 
     }
 

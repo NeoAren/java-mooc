@@ -8,7 +8,23 @@ public class NameOfTheOldest {
 
         Scanner scanner = new Scanner(System.in);
 
-        //
+        int oldest = 0;
+        String name = "";
+
+        while (true) {
+            String input = scanner.nextLine();
+            if (input.equals("")) {
+                break;
+            } else {
+                String[] person = input.split(",");
+                if (oldest < Integer.parseInt(person[1])) {
+                    oldest = Integer.parseInt(person[1]);
+                    name = person[0];
+                }
+            }
+        }
+
+        System.out.println("Name of the oldest: " + name);
 
     }
 
