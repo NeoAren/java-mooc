@@ -8,5 +8,6 @@ out/
 .idea/
 .vscode/
 
-# misc
-*.helper.js
+# helper
+helper.js
+helper.config.json
