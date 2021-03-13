@@ -7,7 +7,3 @@ out/
 # IDE
 .idea/
 .vscode/
-
-# helper
-helper.js
-helper.config.json
